@@ -1,0 +1,22 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Nick Koutrelakos (nick.koutrelakos@gmail.com)
+ * @date    2017-01-31 18:38:44
+ * @version $Id$
+ */
+
+.appear-enter {
+	transition-duration: 0.7s;
+	transition-property: opacity;
+	transition-timing-function: ease-out;;
+	opacity: 0;
+}
+
+.appear-enter.appear-enter-active {
+	opacity: 1;
+}
+
+.appear-leave {
+	opacity: 0;
+}
