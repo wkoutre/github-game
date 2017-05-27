@@ -13,7 +13,7 @@ A single page React application using the GitHub API to compare the GitHub stati
 ```npm i ```
 
  #### Scripts
- ```npm run start``` : starts a locally served development build of the app
+ ```npm run start``` : starts a locally served development build of the app at http://localhost:8080/webpack-dev-server/
  ```npm run production``` : creates a production build, output in dist/index_bundle.js
  
 
